@@ -1,2 +1,4 @@
 "use strict";
-var add = 2;
+// tuple (order is compulsory)
+var arr = [1, "ali", true];
+console.log(arr);
