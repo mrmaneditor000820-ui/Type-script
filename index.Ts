@@ -2,7 +2,9 @@
 
 
 
-
+// typescript types 
+// tuple - arr ke liye 
+// enum - obj
 
 // tuple (order is compulsory)
 
