@@ -1,16 +1,61 @@
 
+//     Interface 
+
+interface User {
+  name: string;
+  age: number;
+}
+
+let user: User = {
+  name: "Rehman",
+  age: 20
+};
+console.log(user.age)
+
+//    Pramative Types
+
+// string
+
+var myname:string = "Abdurehman"   
+console.log(myname)
+
+// Number 
+
+var myage:number = 18
+console.log(myage)
+
+// Boleans 
+
+let isPaid: boolean = true;
+
+if (isPaid) {
+  console.log("Access granted");
+} else {
+  console.log("Access denied");
+}
+
+// Arrays
+
+let names: string[] = ["Ali", "Ahmed"];
+console.log(names)
+
+// objects
+
+let obj : { name: string; age: number } = {
+  name: "Rehman",
+  age: 20
+};
+console.log(obj.name)
 
 
+// functions
 
-// typescript types 
-// tuple - arr ke liye 
-// enum - obj
+function add(a: number, b: number): number {
+  return a + b;
+}
+console.log(add(2,5))
 
-// tuple (order is compulsory)
-
-var arr:[number,string,boolean] = [1,"ali",true]
-console.log(arr)
-
-// var arr: readonly [string,number] = ["ali",30]
-// arr.push("khan") koi chize posh hone se rokne ke liye readonly
-// console.log(arr)
+function greet(): void {
+  console.log("Hello Rehman");
+}
+greet()
